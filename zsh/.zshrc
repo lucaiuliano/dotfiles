@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 PATH="/home/flareon/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
